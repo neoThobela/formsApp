@@ -1,4 +1,4 @@
-<div fxLayout="column wrap" class="lightGrayBg" fxLayoutAlign="start stretch" [fxShow]="true">
+<div fxLayout="column wrap" class="lightGrayBg" fxLayoutGap="2em" fxLayoutAlign="start stretch" [fxShow]="true">
   <div fxLayout="row wrap" class="width100" fxLayoutAlign="start stretch" [fxShow]="true">
     <h2 class="purpleText">
       Controls and Validations</h2>
@@ -9,6 +9,124 @@
         Simple Validations</h3>
     </div>
     <form>
+      <div fxLayout="row wrap" class="width80" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="column wrap" fxFlex="20" fxLayoutAlign="center stretch" [fxShow]="true">
+          <p class="lightPurpleText">
+            required text</p>
+        </div>
+        <div fxLayout="column wrap" fxFlex="50" fxLayoutAlign="start stretch" [fxShow]="true">
+          <mat-form-field [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+            <input matInput [required]="false">
+
+          </mat-form-field>
+        </div>
+      </div>
+      <div fxLayout="row wrap" class="width80" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="column wrap" fxFlex="20" fxLayoutAlign="center stretch" [fxShow]="true">
+          <p class="lightPurpleText">
+            Optional text</p>
+        </div>
+        <div fxLayout="column wrap" fxFlex="50" fxLayoutAlign="start stretch" [fxShow]="true">
+          <mat-form-field [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+            <input matInput [required]="false">
+
+          </mat-form-field>
+        </div>
+      </div>
+      <div fxLayout="row wrap" class="width80" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="column wrap" fxFlex="20" fxLayoutAlign="center stretch" [fxShow]="true">
+          <p class="lightPurpleText">
+            Email</p>
+        </div>
+        <div fxLayout="column wrap" fxFlex="50" fxLayoutAlign="start stretch" [fxShow]="true">
+          <mat-form-field [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+            <input matInput [required]="false">
+
+          </mat-form-field>
+        </div>
+      </div>
+      <div fxLayout="row wrap" class="width80" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="column wrap" fxFlex="20" fxLayoutAlign="center stretch" [fxShow]="true">
+          <p class="lightPurpleText">
+            Equal</p>
+        </div>
+        <div fxLayout="column wrap" fxFlex="50" fxLayoutAlign="start stretch" [fxShow]="true">
+          <div fxLayout="row wrap" class="width100" fxLayoutGap="1em" fxLayoutAlign="space-between stretch" [fxShow]="true">
+            <div fxLayout="column wrap" style="10" fxLayoutAlign="start stretch" [fxShow]="true">
+              <mat-form-field [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+                <input matInput [required]="false">
+
+              </mat-form-field>
+            </div>
+            <div fxLayout="column wrap" style="10" fxLayoutAlign="start stretch" [fxShow]="true">
+              <mat-form-field [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+                <input matInput [required]="false">
+
+              </mat-form-field>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div fxLayout="row wrap" class="width80" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="column wrap" fxFlex="20" fxLayoutAlign="center stretch" [fxShow]="true">
+          <p class="lightPurpleText">
+            Max length</p>
+        </div>
+        <div fxLayout="column wrap" fxFlex="60" fxLayoutAlign="start stretch" [fxShow]="true">
+          <mat-form-field [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+            <input matInput [required]="false">
+
+          </mat-form-field>
+        </div>
+      </div>
+      <div fxLayout="row wrap" class="width80" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="column wrap" fxFlex="20" fxLayoutAlign="center stretch" [fxShow]="true">
+          <p class="lightPurpleText">
+            Min length</p>
+        </div>
+        <div fxLayout="column wrap" fxFlex="50" fxLayoutAlign="start stretch" [fxShow]="true">
+          <mat-form-field [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+            <input matInput [required]="false">
+
+          </mat-form-field>
+        </div>
+      </div>
+      <div fxLayout="row wrap" class="width80" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="column wrap" fxFlex="20" fxLayoutAlign="center stretch" [fxShow]="true">
+          <p class="lightPurpleText">
+            required text</p>
+        </div>
+        <div fxLayout="column wrap" fxFlex="50" fxLayoutAlign="start stretch" [fxShow]="true">
+          <mat-form-field [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+            <input matInput [required]="false">
+
+          </mat-form-field>
+        </div>
+      </div>
+      <div fxLayout="row wrap" class="width80" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="column wrap" fxFlex="20" fxLayoutAlign="center stretch" [fxShow]="true">
+          <p class="lightPurpleText">
+            required text</p>
+        </div>
+        <div fxLayout="column wrap" fxFlex="50" fxLayoutAlign="start stretch" [fxShow]="true">
+          <mat-form-field [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+            <input matInput [required]="false">
+
+          </mat-form-field>
+        </div>
+      </div>
+      <div fxLayout="row wrap" class="width80" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="column wrap" fxFlex="20" fxLayoutAlign="center stretch" [fxShow]="true">
+          <p class="lightPurpleText">
+            required text</p>
+        </div>
+        <div fxLayout="column wrap" fxFlex="50" fxLayoutAlign="start stretch" [fxShow]="true">
+          <mat-form-field [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+            <input matInput [required]="false">
+
+          </mat-form-field>
+        </div>
+      </div>
       <div fxLayout="row wrap" class="width80" fxLayoutAlign="start stretch" [fxShow]="true">
         <div fxLayout="column wrap" fxFlex="20" fxLayoutAlign="center stretch" [fxShow]="true">
           <p class="lightPurpleText">

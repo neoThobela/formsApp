@@ -257,7 +257,7 @@
                     },
                     {
                         "_key": "fxLayoutGap",
-                        "_value": "",
+                        "_value": "10px",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -368,7 +368,7 @@
                             },
                             {
                                 "_key": "IconName",
-                                "_value": "home",
+                                "_value": "search",
                                 "_type": "a",
                                 "_attrDef": "p",
                                 "_useAsLabel": true
@@ -462,13 +462,15 @@
                             },
                             {
                                 "_key": "class",
-                                "_value": "",
+                                "_value": [
+                                    "icons"
+                                ],
                                 "_type": "dav",
                                 "_attrDef": "p"
                             },
                             {
                                 "_key": "IconName",
-                                "_value": "home",
+                                "_value": "notifications",
                                 "_type": "a",
                                 "_attrDef": "p",
                                 "_useAsLabel": true
@@ -562,13 +564,15 @@
                             },
                             {
                                 "_key": "class",
-                                "_value": "",
+                                "_value": [
+                                    "icons"
+                                ],
                                 "_type": "dav",
                                 "_attrDef": "p"
                             },
                             {
                                 "_key": "IconName",
-                                "_value": "home",
+                                "_value": "tune",
                                 "_type": "a",
                                 "_attrDef": "p",
                                 "_useAsLabel": true
