@@ -18,7 +18,9 @@
             },
             {
                 "_key": "class",
-                "_value": "",
+                "_value": [
+                    "lightGrayBg"
+                ],
                 "_type": "dav",
                 "_attrDef": "p"
             },
@@ -785,7 +787,7 @@
                         },
                         {
                             "_key": "layoutAlign",
-                            "_value": "start",
+                            "_value": "center",
                             "_type": "a",
                             "_attrDef": "p"
                         },
@@ -1013,7 +1015,7 @@
                                 },
                                 {
                                     "_key": "html",
-                                    "_value": "",
+                                    "_value": "required text",
                                     "_type": "a",
                                     "_attrDef": "p"
                                 }
@@ -1115,7 +1117,7 @@
                             },
                             {
                                 "_key": "[appearance]",
-                                "_value": "'legacy'",
+                                "_value": "'outline'",
                                 "_type": "a",
                                 "_attrDef": "p"
                             },

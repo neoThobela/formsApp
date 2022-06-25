@@ -19,6 +19,7 @@
             {
                 "_key": "class",
                 "_value": [
+                    "height100vh",
                     "purpleBg"
                 ],
                 "_type": "dav",

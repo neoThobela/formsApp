@@ -15,6 +15,9 @@ $white:white;
 .purpleBg{
     background-color: $navPurple;
 }
+.lightGrayBg{
+    background-color: $lightgary;
+}
 .icons{
     color:$white;
 }
@@ -26,4 +29,24 @@ width:100%;
 }
 .lightPurpleText{
     color:$lightPurple;
+}
+.mat-form-field-appearance-outline .mat-form-field-wrapper {
+    margin: 0!important;
+}
+.mat-form-field-appearance-outline .mat-form-field-infix {
+    padding: 0!important;
+}
+.mat-form-field-wrapper {
+    padding-bottom: 0!important;
+}
+input.mat-input-element {
+    margin-top: -0.0625em;
+    padding-bottom: 8px;
+}
+.height100vh{
+    height:100vh;
+}
+.image{
+    width:20px;
+    border-radius: 50%;
 }

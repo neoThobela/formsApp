@@ -1,8 +1,13 @@
-<div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
-  <div fxLayout="row wrap" class="width100" fxLayoutAlign="start stretch" [fxShow]="true">
-    <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"></div>
-    <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"></div>
-    <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+<div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" fxFill>
+  <div fxLayout="row wrap" class="width100" fxLayoutAlign="start space-between" [fxShow]="true">
+    <div fxLayout="column wrap" fxFlex="5" fxLayoutAlign="start stretch" [fxShow]="true" fxFill>
+      <bh-nav class="width100"></bh-nav>
+    </div>
+    <div fxLayout="column wrap" fxFlex="10" fxLayoutAlign="start stretch" [fxShow]="true">
+      <div>
+        nav</div>
+    </div>
+    <div fxLayout="column wrap" fxFlex="80" fxLayoutAlign="start stretch" [fxShow]="true">
       <bh-form class="width100"></bh-form>
     </div>
   </div>
