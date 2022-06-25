@@ -27,6 +27,9 @@ $white:white;
 .width100{
 width:100%;
 }
+.width80{
+width:80%;
+}
 .lightPurpleText{
     color:$lightPurple;
 }
@@ -47,6 +50,7 @@ input.mat-input-element {
     height:100vh;
 }
 .image{
-    width:20px;
+    width:40px;
+    height: 40px;
     border-radius: 50%;
 }

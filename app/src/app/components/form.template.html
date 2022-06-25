@@ -8,17 +8,19 @@
       <h3>
         Simple Validations</h3>
     </div>
-    <div fxLayout="row wrap" class="width100" fxLayoutAlign="start stretch" [fxShow]="true">
-      <div fxLayout="column wrap" fxLayoutAlign="center stretch" [fxShow]="true">
-        <p class="lightPurpleText">
-          required text</p>
-      </div>
-      <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
-        <mat-form-field [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
-          <input matInput [required]="false">
+    <form>
+      <div fxLayout="row wrap" class="width80" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="column wrap" fxFlex="20" fxLayoutAlign="center stretch" [fxShow]="true">
+          <p class="lightPurpleText">
+            required text</p>
+        </div>
+        <div fxLayout="column wrap" fxFlex="50" fxLayoutAlign="start stretch" [fxShow]="true">
+          <mat-form-field [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+            <input matInput [required]="false">
 
-        </mat-form-field>
+          </mat-form-field>
+        </div>
       </div>
-    </div>
+    </form>
   </div>
 </div>

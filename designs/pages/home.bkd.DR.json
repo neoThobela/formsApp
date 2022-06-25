@@ -86,6 +86,7 @@
                 {
                     "_key": "class",
                     "_value": [
+                        "height100vh",
                         "width100"
                     ],
                     "_type": "dav",
@@ -244,13 +245,15 @@
                     },
                     {
                         "_key": "class",
-                        "_value": "",
+                        "_value": [
+                            "height100vh"
+                        ],
                         "_type": "dav",
                         "_attrDef": "p"
                     },
                     {
                         "_key": "fxFlex",
-                        "_value": "10",
+                        "_value": "15",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -520,7 +523,10 @@
                     },
                     {
                         "_key": "class",
-                        "_value": "",
+                        "_value": [
+                            "lightGrayBg",
+                            "height100vh"
+                        ],
                         "_type": "dav",
                         "_attrDef": "p"
                     },

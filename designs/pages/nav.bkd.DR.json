@@ -640,7 +640,7 @@
                 },
                 {
                     "_key": "pLayoutAlign",
-                    "_value": "stretch",
+                    "_value": "end",
                     "_type": "a",
                     "_attrDef": "p"
                 },
@@ -671,7 +671,9 @@
                     },
                     {
                         "_key": "class",
-                        "_value": "",
+                        "_value": [
+                            "image"
+                        ],
                         "_type": "dav",
                         "_attrDef": "p"
                     },
