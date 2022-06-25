@@ -1,0 +1,29 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+$navPurple:#9e34df;
+$gray:#efedf1;
+$lightgary:#faf9fa;
+$lightPurple:#d5ced9;
+$white:white;
+
+*{
+    margin:0;
+    padding:0;
+}
+.purpleBg{
+    background-color: $navPurple;
+}
+.icons{
+    color:$white;
+}
+.purpleText{
+    color: $navPurple;
+}
+.width100{
+width:100%;
+}
+.lightPurpleText{
+    color:$lightPurple;
+}
